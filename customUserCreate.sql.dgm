@@ -1,0 +1,115 @@
+{
+    "connectionName": "RMS",
+    "layout": {
+        "items": [
+            {
+                "type": "TABLE",
+                "name": "TICKET",
+                "schema": "DBMS_PROJECT",
+                "bounds": {
+                    "x": 566.1351623535156,
+                    "y": 704,
+                    "width": 546,
+                    "height": 333
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "TRAIN",
+                "schema": "DBMS_PROJECT",
+                "bounds": {
+                    "x": -203.01849365234375,
+                    "y": 479,
+                    "width": 468,
+                    "height": 293
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "PAYMENT",
+                "schema": "DBMS_PROJECT",
+                "bounds": {
+                    "x": -148,
+                    "y": 1008,
+                    "width": 468,
+                    "height": 267
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "TRAIN_SCHEDULE",
+                "schema": "DBMS_PROJECT",
+                "bounds": {
+                    "x": 540,
+                    "y": 275,
+                    "width": 493,
+                    "height": 358
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "STATION",
+                "schema": "DBMS_PROJECT",
+                "bounds": {
+                    "x": 1356,
+                    "y": 422,
+                    "width": 365,
+                    "height": 350
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "PASSENGER",
+                "schema": "DBMS_PROJECT",
+                "bounds": {
+                    "x": 1293,
+                    "y": 962,
+                    "width": 390,
+                    "height": 300
+                }
+            },
+            {
+                "type": "RELATION",
+                "name": "SYS_C008299",
+                "sourceID": "DBMS_PROJECT.TRAIN",
+                "targetID": "DBMS_PROJECT.TRAIN_SCHEDULE",
+                "style": "dash"
+            },
+            {
+                "type": "RELATION",
+                "name": "SYS_C008300",
+                "sourceID": "DBMS_PROJECT.STATION",
+                "targetID": "DBMS_PROJECT.TRAIN_SCHEDULE",
+                "style": "dash"
+            },
+            {
+                "type": "RELATION",
+                "name": "SYS_C008301",
+                "sourceID": "DBMS_PROJECT.STATION",
+                "targetID": "DBMS_PROJECT.TRAIN_SCHEDULE",
+                "style": "dash"
+            },
+            {
+                "type": "RELATION",
+                "name": "SYS_C008311",
+                "sourceID": "DBMS_PROJECT.TICKET",
+                "targetID": "DBMS_PROJECT.PAYMENT",
+                "style": "dash"
+            },
+            {
+                "type": "RELATION",
+                "name": "SYS_C008307",
+                "sourceID": "DBMS_PROJECT.PASSENGER",
+                "targetID": "DBMS_PROJECT.TICKET",
+                "style": "dash"
+            },
+            {
+                "type": "RELATION",
+                "name": "SYS_C008308",
+                "sourceID": "DBMS_PROJECT.TRAIN",
+                "targetID": "DBMS_PROJECT.TICKET",
+                "style": "dash"
+            }
+        ]
+    }
+}
