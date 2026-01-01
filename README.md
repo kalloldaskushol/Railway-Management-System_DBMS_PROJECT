@@ -1,4 +1,4 @@
-# 🚆 Railway Management System (DBMS Project)
+# Railway Management System (DBMS Project)
 
 ## 📌 Project Overview
 The Railway Management System is a database-based project designed to demonstrate the practical application of Database Management System (DBMS) concepts in a real-world scenario. The system simulates core railway operations such as train scheduling, passenger booking, seat management, and revenue tracking.
