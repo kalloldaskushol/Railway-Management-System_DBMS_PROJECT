@@ -9,7 +9,7 @@ The Railway Management System is a database-based project designed to demonstrat
 - Apply theoretical DBMS concepts to a real-life problem
 - Design a structured and relational database
 - Implement complex SQL queries for data retrieval and analysis
-- Ensure data integrity and efficient relationship management
+- Ensure data integrity and efficient relationship management.
 
 ---
 
